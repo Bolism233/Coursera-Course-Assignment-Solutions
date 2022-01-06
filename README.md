@@ -6,3 +6,5 @@ Instructions: https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/a
 Course Link: https://www.coursera.org/learn/html-css-javascript-for-web-developers
 
 Page Link: https://bolism233.github.io/module2-solution/
+
+CloudFlare website: https://module2-solution.pages.dev/
