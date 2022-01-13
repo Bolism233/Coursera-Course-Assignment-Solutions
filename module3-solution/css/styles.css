@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Header*/
+#header-nav {
+    background-color: #b9def0;
+    border-radius: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+
+#header-nav {
+    background-color: #b9def0;
+    border-radius: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.navbar-brand h1{
+    font-family: "Times New Roman", Times, serif;
+    margin: 0px;
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+/*End of Header*/
+
+/*Start of content*/
+#menu {
+    text-align: center;
+    font-family: system-ui;
+    font-size: 33px;
+}
+
+#item-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.row {
+    background-color: #fcf8e3;
+    width: 100%;
+    margin: auto;
+}
+
+div.row > div{
+    border: 2px solid black;
+    margin: 12px;
+    background: #a6e1ec;
+}
+
+#section-title {
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#description {
+    font-size: 16px;
+    font-family: cursive;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+/*End of Body*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .col-lg-6 {
+        width: calc(50% - 24px);
+        float:left;
+        padding: 15px;
+    }
+
+    .col-lg-12 {
+        width: calc(100% - 24px);
+        float:left;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-12 {
+        width: 100%;
+        float:left;
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-sm-12 {
+        width: 100%;
+        float:left;
+    }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
